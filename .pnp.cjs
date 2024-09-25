@@ -47,6 +47,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:18.3.1"],\
           ["sass", "npm:1.79.3"],\
+          ["swiper", "npm:11.1.14"],\
           ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"],\
           ["typescript-eslint", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:8.6.0"],\
           ["vite", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:5.4.6"],\
@@ -8662,6 +8663,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["swiper", [\
+      ["npm:11.1.14", {\
+        "packageLocation": "../../.yarn/berry/cache/swiper-npm-11.1.14-8126fa478a-10c0.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["swiper", "npm:11.1.14"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["synckit", [\
       ["npm:0.9.1", {\
         "packageLocation": "../../.yarn/berry/cache/synckit-npm-0.9.1-2153077746-10c0.zip/node_modules/synckit/",\
@@ -9173,6 +9183,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:18.3.1"],\
           ["sass", "npm:1.79.3"],\
+          ["swiper", "npm:11.1.14"],\
           ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"],\
           ["typescript-eslint", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:8.6.0"],\
           ["vite", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:5.4.6"],\
