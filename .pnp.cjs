@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@eslint/js", "npm:9.10.0"],\
           ["@types/node", "npm:22.7.0"],\
           ["@types/react", "npm:18.3.8"],\
+          ["@types/react-copy-to-clipboard", "npm:5.0.7"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vitejs/plugin-react", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:4.3.1"],\
           ["classnames", "npm:2.5.1"],\
@@ -45,6 +46,7 @@ const RAW_RUNTIME_STATE =
           ["json-server", "npm:1.0.0-beta.2"],\
           ["prettier", "npm:3.3.3"],\
           ["react", "npm:18.3.1"],\
+          ["react-copy-to-clipboard", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:5.1.0"],\
           ["react-day-picker", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:9.1.2"],\
           ["react-dom", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:18.3.1"],\
           ["sass", "npm:1.79.3"],\
@@ -3935,6 +3937,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/react-copy-to-clipboard", [\
+      ["npm:5.0.7", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-react-copy-to-clipboard-npm-5.0.7-cf9459d351-10c0.zip/node_modules/@types/react-copy-to-clipboard/",\
+        "packageDependencies": [\
+          ["@types/react-copy-to-clipboard", "npm:5.0.7"],\
+          ["@types/react", "npm:18.3.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/react-dom", [\
       ["npm:18.3.0", {\
         "packageLocation": "../../.yarn/berry/cache/@types-react-dom-npm-18.3.0-111444d3eb-10c0.zip/node_modules/@types/react-dom/",\
@@ -5075,6 +5087,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/convert-source-map-npm-2.0.0-7ab664dc4e-10c0.zip/node_modules/convert-source-map/",\
         "packageDependencies": [\
           ["convert-source-map", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["copy-to-clipboard", [\
+      ["npm:3.3.3", {\
+        "packageLocation": "../../.yarn/berry/cache/copy-to-clipboard-npm-3.3.3-6964e6cfad-10c0.zip/node_modules/copy-to-clipboard/",\
+        "packageDependencies": [\
+          ["copy-to-clipboard", "npm:3.3.3"],\
+          ["toggle-selection", "npm:1.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8002,6 +8024,30 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["react-copy-to-clipboard", [\
+      ["npm:5.1.0", {\
+        "packageLocation": "../../.yarn/berry/cache/react-copy-to-clipboard-npm-5.1.0-de9742f2bc-10c0.zip/node_modules/react-copy-to-clipboard/",\
+        "packageDependencies": [\
+          ["react-copy-to-clipboard", "npm:5.1.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:5.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-copy-to-clipboard-virtual-346d18c16e/3/.yarn/berry/cache/react-copy-to-clipboard-npm-5.1.0-de9742f2bc-10c0.zip/node_modules/react-copy-to-clipboard/",\
+        "packageDependencies": [\
+          ["react-copy-to-clipboard", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:5.1.0"],\
+          ["@types/react", "npm:18.3.8"],\
+          ["copy-to-clipboard", "npm:3.3.3"],\
+          ["prop-types", "npm:15.8.1"],\
+          ["react", "npm:18.3.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react-day-picker", [\
       ["npm:9.1.2", {\
         "packageLocation": "../../.yarn/berry/cache/react-day-picker-npm-9.1.2-9d924e53e1-10c0.zip/node_modules/react-day-picker/",\
@@ -8760,6 +8806,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["toggle-selection", [\
+      ["npm:1.0.6", {\
+        "packageLocation": "../../.yarn/berry/cache/toggle-selection-npm-1.0.6-c506b73005-10c0.zip/node_modules/toggle-selection/",\
+        "packageDependencies": [\
+          ["toggle-selection", "npm:1.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["totalist", [\
       ["npm:3.0.1", {\
         "packageLocation": "../../.yarn/berry/cache/totalist-npm-3.0.1-91e71f3baa-10c0.zip/node_modules/totalist/",\
@@ -9200,6 +9255,7 @@ const RAW_RUNTIME_STATE =
           ["@eslint/js", "npm:9.10.0"],\
           ["@types/node", "npm:22.7.0"],\
           ["@types/react", "npm:18.3.8"],\
+          ["@types/react-copy-to-clipboard", "npm:5.0.7"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@vitejs/plugin-react", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:4.3.1"],\
           ["classnames", "npm:2.5.1"],\
@@ -9215,6 +9271,7 @@ const RAW_RUNTIME_STATE =
           ["json-server", "npm:1.0.0-beta.2"],\
           ["prettier", "npm:3.3.3"],\
           ["react", "npm:18.3.1"],\
+          ["react-copy-to-clipboard", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:5.1.0"],\
           ["react-day-picker", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:9.1.2"],\
           ["react-dom", "virtual:263e27dabf89539697e6aa0cf8aa95d3beb03ae16464566af696225b852e776acc6f11dda2b86611fd751349a3992ac855922dfdd14ebc6634e80300d8e3baf3#npm:18.3.1"],\
           ["sass", "npm:1.79.3"],\
