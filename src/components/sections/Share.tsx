@@ -32,7 +32,6 @@ const Share = ({ groomName, brideName, date }: ShareProps) => {
       }
     }
   }, [])
-  console.log(window)
   const handleShareKakao = () => {
     window.Kakao.Share.sendDefault({
       objectType: 'feed',
