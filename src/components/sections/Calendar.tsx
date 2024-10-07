@@ -1,3 +1,5 @@
+import React from 'react'
+
 import classNames from 'classnames/bind'
 import styles from './Calendar.module.scss'
 
@@ -64,4 +66,4 @@ const Calendar = ({ date }: { date: string }) => {
   )
 }
 
-export default Calendar
+export default React.memo(Calendar)
